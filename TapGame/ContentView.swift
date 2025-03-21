@@ -96,8 +96,7 @@ struct ContentView: View {
         } message: {
             Text(alertMessage)
         }
-
-    }
+     }
     
     func changePic() {
         if currentPicIndex == possiblePics.count - 1 {
@@ -106,7 +105,6 @@ struct ContentView: View {
             currentPicIndex += 1
         }
     }
-    
 }
 
 #Preview {
